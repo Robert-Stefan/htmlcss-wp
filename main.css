@@ -154,6 +154,9 @@ header .brand img {
 }
 /*FOOTER*/
 footer {
+    margin-top: 50px;
     height: 60px;
-    background: purple;
+    /*background: purple;*/
+    text-align: center;
+    color: black;
 }

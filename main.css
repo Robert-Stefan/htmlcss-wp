@@ -61,6 +61,7 @@ header .brand img {
 .main-menu li a:hover {
     color: black;
 }
+
 /* HERO IMG*/
 .hero {
     margin-bottom: 40px;
@@ -116,7 +117,7 @@ header .brand img {
     width: 20%;
     height: 600px;
     margin-bottom: 20px;
-    background: lightblue;
+    /*background: lightblue;*/
 }
 
 .leadership .columns .col:nth-child(2) {
@@ -124,6 +125,33 @@ header .brand img {
     margin: 0 2%;
 }
 
+.colimage {
+    background: url('./img/img-1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.colimage2 {
+    background: url('./img/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.colimage3 {
+    background: url('./img/img-3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.colimage .trasparent,
+.colimage2 .trasparent2,
+.colimage3 .trasparent3 {
+    height: 180px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, .2);
+    margin-bottom: 20px;
+}
 /*FOOTER*/
 footer {
     height: 60px;
